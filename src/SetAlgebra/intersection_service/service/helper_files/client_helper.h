@@ -3,6 +3,8 @@
 
 #include "protoc_files/intersection.grpc.pb.h"
 
+#include <grpc++/grpc++.h>
+
 typedef long long Docids;
 
 struct IntersectionSrvTimingInfo {

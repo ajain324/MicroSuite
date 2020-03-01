@@ -4,6 +4,8 @@
 #include "bucket_service/src/dist_calc.h"
 #include "protoc_files/bucket.grpc.pb.h"
 
+#include <grpc++/grpc++.h>
+
 struct BucketTimingInfo {
     uint64_t create_bucket_request_time = 0;
     uint64_t unpack_bucket_req_time = 0;
